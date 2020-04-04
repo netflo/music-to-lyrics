@@ -3,5 +3,7 @@
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/bin/youtube-dl
 sudo chmod a+rx /usr/bin/youtube-dl
 
-youtube-dl --extract-audio --audio-format mp3 <video URL>
+youtube-dl --extract-audio --audio-format wav <video URL>
 
+#get V2T here:
+https://github.com/mozilla/DeepSpeech
